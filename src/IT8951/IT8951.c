@@ -806,8 +806,8 @@ void IT8951_BMP_Example(uint32_t x, uint32_t y,char *path)
 	//Set Load Area
 	stAreaImgInfo.usX      = 0;
 	stAreaImgInfo.usY      = 0;
-	stAreaImgInfo.usWidth  = 1200;
-	stAreaImgInfo.usHeight = 825;
+	stAreaImgInfo.usWidth  = 800;
+	stAreaImgInfo.usHeight = 600;
 
 	//Load Image from Host to IT8951 Image Buffer
 	IT8951HostAreaPackedPixelWrite(&stLdImgInfo, &stAreaImgInfo);//Display function 2
