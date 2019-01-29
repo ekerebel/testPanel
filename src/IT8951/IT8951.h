@@ -12,6 +12,7 @@
 #define HRDY 	        24
 #define RESET 	        17
 
+
 //prototype of structure
 //structure prototype 1
 typedef struct IT8951LdImgInfo
@@ -21,7 +22,7 @@ typedef struct IT8951LdImgInfo
     uint16_t usRotate; //Rotate mode
     uint32_t ulStartFBAddr; //Start address of source Frame buffer
     uint32_t ulImgBufBaseAddr;//Base address of target image buffer
-    
+
 }IT8951LdImgInfo;
 
 //structure prototype 2
@@ -151,18 +152,3 @@ void IT8951WriteReg(uint16_t usRegAddr,uint16_t usValue);
 
 
 #endif
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
