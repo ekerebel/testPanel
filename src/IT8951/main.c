@@ -13,7 +13,7 @@ int main (int argc, char *argv[])
 		printf("IT8951_Init error \n");
 		return 1;
 	}
-	
+
 	//IT8951DisplayExample();
 	//IT8951DisplayExample2();
 	//IT8951DisplayExample3();
@@ -36,5 +36,3 @@ int main (int argc, char *argv[])
 
 	return 0;
 }
-
-
